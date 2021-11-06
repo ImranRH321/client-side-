@@ -17,7 +17,7 @@ const Header = () => {
         <Navbar className="bg-dark " expand="lg" fixed="top">
           <Container>
             <Navbar.Brand as={NavLink} className="text-white" to="/home">
-              <img width="200px rounded" height="40px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBw0Aijeuu3NHxktyafmiW5dw-M4Bb65l-fmH_FDQkIZkRkGPpeJr_Yj_3niuzpXlQZAc&usqp=CAU" alt="" />
+              <img width="140px" height="25px" className="rounded bg-dark" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBw0Aijeuu3NHxktyafmiW5dw-M4Bb65l-fmH_FDQkIZkRkGPpeJr_Yj_3niuzpXlQZAc&usqp=CAU" alt="" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

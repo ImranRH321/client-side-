@@ -7,7 +7,7 @@ const Services = () => {
     const [servies, setSerives] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:9000/services')
+        fetch('https://mysterious-anchorage-04163.herokuapp.com/services')
             .then(res => res.json())
             .then(data => setSerives(data))
     }, [])
@@ -33,7 +33,7 @@ const Services = () => {
                                         <Card.Text>$
                                             {price}
                                         </Card.Text>
-                                        <Button className="py-1 my-3" variant="danger px-4">Books</Button>
+                                        <Button className="py-1 mb-2" variant="danger px-4">Books</Button>
                                     </Card.Body>
                                 </Card>
 
